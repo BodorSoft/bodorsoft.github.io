@@ -12,11 +12,15 @@ h3 {font-family:"Roboto", sans-serif;}
 
 #bio {color: blueviolet;}
 #skills {color: brown;}
+#img-1 {visibility: visible; position: relative; top: 10px;}
+#szinek {background-color: rgba(112, 143, 64, 0.2); display: inline-block; width: 100px; height: 100px;}
+
+#html { background: url("/css/img/wall.jpg") no-repeat;} 
 
 .tartalom {color : grey; font-size: 24px; font-family: 'Roboto'; 
-    text-align: justify; line-height: 50px;
-font-weight: lighter;}
+    text-align: justify; line-height: 50px; margin: 10px 20px 30px 0; border: solid 1px blue;
+font-weight: lighter; padding: 10px 0 0 0; max-width:75%;}
 .span1 { font-weight: bold;}
 .kepdiv {background-color: lightblue;}
-.light{background-color:red}
-img {width:200px; margin:20px;}
+.light{background-color:red; }
+img {width:11.6%; box-shadow: 3px 3px 10px black; margin: 0.8%;}
