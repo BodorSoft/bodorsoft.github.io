@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/css/selectors.css">
+    <title>Rendelés</title>
+</head>
+<body>
+    <div class="rendeles">
+<form>
+<!--Ürlap eleje-->
+<fieldset>
+    <legend>Személyes adatok</legend>
+<div>
+<label for="name">Név:</label>    
+<input id="name" name="name" type="text" placeholder="Terljes név" required>
+</div>
+
+<div>
+    <label for="email">Email cím:</label>    
+    <input id="email" name="email" type="eamil" placeholder="Email cím" required>
+    </div>
+
+    <div>
+        <label for="cim">Szállítási cím:</label>    
+        <input id="cím" name="cím" type="text" placeholder="Szállítási cím" required>
+        </div>
+
+        <div>
+            <label for="comment">Megjegyzés:</label>    
+            <textarea id ="comment" name="comment" placeholder="Megjegyzés" rows="2"> </textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Termék adatok</legend>
+        
+<!--Checkboxok letrehozazsa-->
+                <div>
+                <input checked id="semmi" name="rendeleskovetelmeny" type="radio" value="0">
+                <label for="seemi"> Nem kérek</label>
+            </div>
+            
+            <div>
+                <input checked id="feltet1" name="rendeleskovetelmeny" type="radio" value="300">
+                <label for="feltet1"> Feltét1</label>
+            </div>
+            <div>
+
+                <input checked id="feltet2" name="rendeleskovetelmeny" type="radio" value="600">
+                <label for="feltet2"> Feltét2</label>
+            </div>
+            
+            <div>
+
+                <input checked id="feltet3" name="rendeleskovetelmeny" type="radio" value="900">
+                <label for="feltet3"> Feltét3</label>
+            </div>
+
+            <div>
+
+                <input checked id="feltet4" name="rendeleskovetelmeny" type="radio" value="1200">
+                <label for="feltet4"> Feltét4</label>
+            </div>
+            <div>
+
+                <input checked id="feltet5" name="rendeleskovetelmeny" type="radio" value="1500">
+                <label for="feltet5"> Feltét5</label>
+            </div>
+ <!--szósz-->
+            <div>
+<label for="szosz">Szósz:</label>
+<select id="szosz" name="szosz">
+    <option value="0" selected> szósz 1 </option>
+    <option value="100" > szósz 2 </option>
+</select>
+</div>
+
+<!--Mennyiség-->
+<div>
+    <label for="mennyiseg">Mennyiség</label>
+    <input id="mennyiseg" name="mennyiseg" type="number" min="1" max="10">
+</div>
+</fieldset>
+<!--Gomb-->
+
+<div>
+                <button class="gomb1">Megrendelés</button>
+                </div>
+</form>
+
+
+    </div>
+</body>
+</html>

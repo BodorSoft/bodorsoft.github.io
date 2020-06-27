@@ -1,0 +1,37 @@
+body { 
+    background-color: #f0f0f0;
+    font-family: Verdana;
+}
+
+.Login-div { 
+    padding: 15px; border: solid 1px rgb(0, 255, 21); box-shadow: 2px; display:inline-block;
+}
+
+.Login-div button:hover{ box-shadow: 2px 2px  3px #c0c0c0; ;
+
+}
+.Login-div input {
+    display: block; margin-bottom: 7px ;
+}
+.Login-div input:focus {
+    box-shadow: 2px 2px  3px #c0c0c0 ;
+    border: none 
+}
+
+ul li:last-child {font-family:Arial;text-decoration: underline;}  
+ul li:first-child {color:red;}
+
+.rendeles { 
+    padding: 15px; border: solid 1px rgb(0, 255, 21); box-shadow: 2px; display:inline-block;
+}
+
+.rendeles button:hover{ box-shadow: 2px 2px  3px #c0c0c0; ;
+
+}
+.rendeles input {
+    display: block; margin-bottom: 7px ;
+}
+.rendeles input:focus {
+    box-shadow: 2px 2px  3px #c0c0c0 ;
+    border: none 
+}
